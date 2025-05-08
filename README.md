@@ -2,7 +2,7 @@
 
 This is an opensource NVRAM replacement for 6116 RAM used in Williams System 11 / System 9, Bally System 9, and some Data East games.  
 
-I did not make an official BOM for this since there are so little components. The values are as follows (with DigiKey hyperlinks):  
+I did not make an official BOM for this since there are so few components. The values are as follows (with DigiKey hyperlinks):  
 U1: [FM16W08-SG](https://www.digikey.com/en/products/detail/infineon-technologies/FM16W08-SG/4090348)  
 C1: [10µF 0603 16V](https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10X106MO8NRNC/5961253) (or equivalent)  
 R1, R2: [10kΩ 0603 1%](https://www.digikey.com/en/products/detail/bourns-inc/CR0603-FX-1002ELF/3593188) (or equivalent)  
