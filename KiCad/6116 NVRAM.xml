@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>U:\_PCB\6116 NVRAM\6116 NVRAM.kicad_sch</source>
+    <date>3/10/2025 1:51:42 PM</date>
+    <tool>Eeschema 7.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>6116 NVRAM.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10µ</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="6116 NVRAM.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a3fa2701-4128-404b-92a0-330fce7b2d48</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_02x12_Counter_Clockwise</value>
+      <footprint>Package_DIP:DIP-24_W15.24mm</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x12_Counter_Clockwise" description="Generic connector, double row, 02x12, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="6116 NVRAM.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x12, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1305ed42-d945-40bf-a08d-0a9b27afcb98</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="6116 NVRAM.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>49f2d764-b216-4f05-946c-ac4a9a756484</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="6116 NVRAM.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f23d7673-3fc7-440a-aef0-e55e5dfde8c5</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>FM16W08-SG</value>
+      <footprint>Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm</footprint>
+      <datasheet>http://www.cypress.com/file/41731/download</datasheet>
+      <libsource lib="Memory_NVRAM" part="FM16W08-SG" description="64Kb FRAM nonvolatile memory, SOIC-28"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="6116 NVRAM.kicad_sch"/>
+      <property name="ki_description" value="64Kb FRAM nonvolatile memory, SOIC-28"/>
+      <property name="ki_keywords" value="FRAM 5V Parallel"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47d81644-ced1-438c-ac12-de00ef8e8625</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_02x12_Counter_Clockwise">
+      <description>Generic connector, double row, 02x12, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x12_Counter_Clockwise</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Memory_NVRAM" part="FM16W08-SG">
+      <description>64Kb FRAM nonvolatile memory, SOIC-28</description>
+      <docs>http://www.cypress.com/file/41731/download</docs>
+      <footprints>
+        <fp>SOIC?28*7.5x17.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FM16W08-SG</field>
+        <field name="Footprint">Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm</field>
+        <field name="Datasheet">http://www.cypress.com/file/41731/download</field>
+      </fields>
+      <pins>
+        <pin num="2" name="A12" type="input"/>
+        <pin num="3" name="A7" type="input"/>
+        <pin num="4" name="A6" type="input"/>
+        <pin num="5" name="A5" type="input"/>
+        <pin num="6" name="A4" type="input"/>
+        <pin num="7" name="A3" type="input"/>
+        <pin num="8" name="A2" type="input"/>
+        <pin num="9" name="A1" type="input"/>
+        <pin num="10" name="A0" type="input"/>
+        <pin num="11" name="DQ0" type="bidirectional"/>
+        <pin num="12" name="DQ1" type="bidirectional"/>
+        <pin num="13" name="DQ2" type="bidirectional"/>
+        <pin num="14" name="VSS" type="power_in"/>
+        <pin num="15" name="DQ3" type="bidirectional"/>
+        <pin num="16" name="DQ4" type="bidirectional"/>
+        <pin num="17" name="DQ5" type="bidirectional"/>
+        <pin num="18" name="DQ6" type="bidirectional"/>
+        <pin num="19" name="DQ7" type="bidirectional"/>
+        <pin num="20" name="~{CE}" type="input"/>
+        <pin num="21" name="A10" type="input"/>
+        <pin num="22" name="~{OE}" type="input"/>
+        <pin num="23" name="A11" type="input"/>
+        <pin num="24" name="A9" type="input"/>
+        <pin num="25" name="A8" type="input"/>
+        <pin num="27" name="~{WE}" type="input"/>
+        <pin num="28" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Memory_NVRAM">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Memory_NVRAM.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="A_{0}">
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="A0" pintype="input"/>
+    </net>
+    <net code="2" name="A_{1}">
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="A1" pintype="input"/>
+    </net>
+    <net code="3" name="A_{2}">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="A2" pintype="input"/>
+    </net>
+    <net code="4" name="A_{3}">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="A3" pintype="input"/>
+    </net>
+    <net code="5" name="A_{4}">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="A4" pintype="input"/>
+    </net>
+    <net code="6" name="A_{5}">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="A5" pintype="input"/>
+    </net>
+    <net code="7" name="A_{6}">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="A6" pintype="input"/>
+    </net>
+    <net code="8" name="A_{7}">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="A7" pintype="input"/>
+    </net>
+    <net code="9" name="A_{8}">
+      <node ref="J1" pin="23" pinfunction="Pin_23" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="A8" pintype="input"/>
+    </net>
+    <net code="10" name="A_{9}">
+      <node ref="J1" pin="22" pinfunction="Pin_22" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="A9" pintype="input"/>
+    </net>
+    <net code="11" name="A_{10}">
+      <node ref="J1" pin="19" pinfunction="Pin_19" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="A10" pintype="input"/>
+    </net>
+    <net code="12" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="J1" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="VSS" pintype="power_in"/>
+    </net>
+    <net code="13" name="I{slash}O_{0}">
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="DQ0" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="I{slash}O_{1}">
+      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="DQ1" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="I{slash}O_{2}">
+      <node ref="J1" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="DQ2" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="I{slash}O_{3}">
+      <node ref="J1" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="DQ3" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="I{slash}O_{4}">
+      <node ref="J1" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="DQ4" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="I{slash}O_{5}">
+      <node ref="J1" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="DQ5" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="I{slash}O_{6}">
+      <node ref="J1" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="DQ6" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="I{slash}O_{7}">
+      <node ref="J1" pin="17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="DQ7" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="Net-(U1-A11)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="A11" pintype="input"/>
+    </net>
+    <net code="22" name="Net-(U1-A12)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="A12" pintype="input"/>
+    </net>
+    <net code="23" name="VCC">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="24" pinfunction="Pin_24" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="28" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="24" name="~{CS}">
+      <node ref="J1" pin="18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="~{CE}" pintype="input"/>
+    </net>
+    <net code="25" name="~{OE}">
+      <node ref="J1" pin="20" pinfunction="Pin_20" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="~{OE}" pintype="input"/>
+    </net>
+    <net code="26" name="~{WE}">
+      <node ref="J1" pin="21" pinfunction="Pin_21" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="~{WE}" pintype="input"/>
+    </net>
+  </nets>
+</export>
